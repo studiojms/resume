@@ -1,0 +1,23 @@
+{
+  "name": "resume-builder",
+  "version": "1.0.0",
+  "description": "Jekyll resume builder with PDF export",
+  "scripts": {
+    "parse": "node scripts/parse-resume.js",
+    "build": "npm run parse && bundle exec jekyll build",
+    "serve": "npm run parse && bundle exec jekyll serve --livereload",
+    "deploy": "npm run parse && bundle exec jekyll build"
+  },
+  "keywords": [
+    "resume",
+    "jekyll",
+    "pdf"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "marked": "^12.0.0"
+  },
+  "devDependencies": {}
+}

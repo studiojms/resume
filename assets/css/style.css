@@ -1,0 +1,353 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.6;
+  color: #000;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+/* Resume Container */
+.resume-container {
+  max-width: 8.5in;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-content {
+  padding: 0.75in;
+}
+
+/* Controls */
+.controls {
+  background: #333;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Language Switcher */
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.lang-label {
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.lang-current {
+  font-weight: 600;
+  color: #4caf50;
+}
+
+.lang-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.lang-link:hover {
+  color: #4caf50;
+  text-decoration: underline;
+}
+
+.lang-separator {
+  color: #666;
+  margin: 0 4px;
+}
+
+.pdf-button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.pdf-button:hover {
+  background: #45a049;
+}
+
+/* Header */
+.resume-header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 15px;
+}
+
+.resume-header h1 {
+  font-size: 28pt;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.resume-header .title {
+  font-size: 13pt;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-info {
+  font-size: 10pt;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px 15px;
+}
+
+.contact-info span,
+.contact-info a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-info span::after {
+  content: ' |';
+  margin-left: 15px;
+  color: #666;
+}
+
+.contact-info span:last-child::after,
+.contact-info a:last-child::after {
+  content: '';
+}
+
+.contact-info a {
+  text-decoration: underline;
+}
+
+.contact-info a::after {
+  content: ' |';
+  margin-left: 15px;
+  color: #666;
+}
+
+/* Sections */
+.resume-section {
+  margin-bottom: 25px;
+}
+
+.resume-section h2 {
+  font-size: 14pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.resume-section p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skill-category {
+  line-height: 1.8;
+}
+
+.skill-category strong {
+  font-weight: 600;
+  min-width: 150px;
+  display: inline-block;
+}
+
+/* Experience */
+.experience-item {
+  margin-bottom: 20px;
+  page-break-inside: avoid;
+}
+
+.experience-header {
+  margin-bottom: 8px;
+}
+
+.experience-header h3 {
+  font-size: 12pt;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.job-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 10pt;
+  margin-bottom: 8px;
+}
+
+.job-title {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.job-dates {
+  font-style: italic;
+  color: #333;
+}
+
+.achievements {
+  list-style-position: outside;
+  padding-left: 20px;
+  margin-left: 0;
+}
+
+.achievements li {
+  margin-bottom: 6px;
+  text-align: justify;
+}
+
+.achievements li strong {
+  font-weight: 600;
+}
+
+/* Education */
+.education-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.education-list li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.education-list li strong {
+  font-weight: 600;
+  font-size: 11pt;
+}
+
+/* Print Styles - ATS Compatible */
+@media print {
+  body {
+    background: white;
+    padding: 0;
+    font-size: 11pt;
+  }
+
+  .resume-container {
+    max-width: 100%;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .resume-content {
+    padding: 0.5in;
+  }
+
+  /* Hide controls */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Ensure black text for ATS */
+  * {
+    color: #000 !important;
+    background: transparent !important;
+  }
+
+  /* Keep links visible but with underline */
+  a {
+    text-decoration: underline !important;
+  }
+
+  /* Prevent page breaks in sections */
+  .experience-item,
+  .skill-category,
+  .resume-section {
+    page-break-inside: avoid;
+  }
+
+  h1,
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  /* Adjust margins for print */
+  .resume-header {
+    margin-bottom: 20px;
+  }
+
+  .resume-section {
+    margin-bottom: 20px;
+  }
+
+  /* Ensure proper spacing */
+  .experience-item {
+    margin-bottom: 15px;
+  }
+
+  .achievements li {
+    margin-bottom: 4px;
+  }
+
+  /* Remove shadows and decorative elements */
+  .resume-container {
+    box-shadow: none;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .resume-content {
+    padding: 20px;
+  }
+
+  .resume-header h1 {
+    font-size: 22pt;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info span::after,
+  .contact-info a::after {
+    content: '';
+  }
+
+  .job-details {
+    flex-direction: column;
+  }
+}

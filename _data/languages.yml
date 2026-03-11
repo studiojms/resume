@@ -1,0 +1,8 @@
+available:
+  - code: en
+    name: English
+    exists: true
+  - code: pt-BR
+    name: Português
+    exists: true
+default: en

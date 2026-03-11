@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build: .
+    ports:
+      - "4000:4000"
+      - "35729:35729"  # LiveReload
+    volumes:
+      - .:/app
+      - /app/vendor
+      - /app/node_modules
+      - /app/_site
+    environment:
+      - JEKYLL_ENV=development
+    command: >
+      sh -c "npm run parse && 
+             bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling"

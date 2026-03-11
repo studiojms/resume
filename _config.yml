@@ -1,0 +1,28 @@
+# Jekyll Configuration
+title: Resume
+description: Professional Resume
+url: "" # your site URL (e.g., https://username.github.io)
+baseurl: "" # your site's base path (e.g., /resume for username.github.io/resume)
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - scripts
+  - package.json
+  - package-lock.json
+  - README.md
+  - RESUME.md
+
+# Collections
+collections_dir: .
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
+# Theme settings
+show_downloads: false

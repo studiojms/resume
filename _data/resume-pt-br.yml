@@ -1,0 +1,153 @@
+name: Jefferson Mariano de Souza
+title: Engenheiro de Software Sênior | Arquiteto de Software
+location: ''
+contact:
+  phone: ''
+  email: jefferson.msouza86@gmail.com
+  linkedin: https://www.linkedin.com/in/jefferson-mariano-de-souza/
+  github: https://github.com/studiojms
+summary: Engenheiro de Software Sênior e Arquiteto com mais de 20 anos de experiência no desenvolvimento de sistemas distribuídos de alta disponibilidade e escala. Especialista em <strong>TypeScript (Node.js/React)</strong>, <strong>Java</strong> e <strong>Python</strong> em ambientes <strong>Cloud-native AWS</strong> (EKS, CDK, Lambda). Histórico comprovado na liderança de migrações massivas (2.500+ componentes), design de microsserviços orientados a eventos e otimização de arquiteturas de dados para catálogos com mais de <strong>500 milhões de registros</strong> e <strong>latência P99 em milissegundos</strong>. MBA em Arquitetura de Software com foco em <strong>Spec-Driven Development</strong> e engenharia aumentada por IA.
+skills:
+  IA & Produtividade:
+    - GitHub Copilot
+    - Cursor
+    - Claude
+    - Spec-Driven Development
+  Linguagens:
+    - TypeScript
+    - Java
+    - Clojure
+    - Python
+    - Groovy
+    - Ruby
+    - SQL
+    - PL/SQL
+  Frameworks:
+    - Node.js (NestJS)
+    - React
+    - Next.js
+    - Spring Boot
+    - Grails
+    - Django
+    - RoR
+  Cloud & DevOps:
+    - AWS (CDK
+    - EKS
+    - Lambda
+    - SQS
+    - SNS
+    - EventBridge)
+    - Docker
+    - Kubernetes
+    - ArgoCD
+    - GitLab CI
+  Dados & Storage:
+    - PostgreSQL
+    - Oracle
+    - MongoDB
+    - DynamoDB
+    - Redis
+    - Redshift
+    - OpenSearch
+    - SAP HANA
+  Arquitetura:
+    - Microsserviços
+    - Event-Driven Design
+    - Programação Funcional
+    - gRPC
+    - HL7
+    - Kafka
+experience:
+  - company: Engine
+    role: Engenheiro de Software Sênior
+    dates: ''
+    achievements:
+      - title: Engenharia Aumentada por IA
+        description: Liderança do <strong>Spec-Driven Development</strong> utilizando <strong>GitHub Copilot, Cursor e Claude</strong> para aumentar a fidelidade das entregas, acelerando o desenvolvimento e reduzindo falhas de lógica.
+      - title: Otimização de APIs de Busca
+        description: Responsável por integrações de backend via <strong>gRPC</strong> para um motor de busca de viagens de alto tráfego, garantindo conformidade rigorosa dos contratos de dados entre microsserviços.
+      - title: Liderança Técnica
+        description: Colaboração direta com Product Managers para traduzir requisitos de negócio complexos em serviços de alta performance em <strong>Node.js/TypeScript</strong> na <strong>AWS</strong>.
+  - company: Akido Labs
+    role: Engenheiro de Software Sênior
+    dates: ''
+    achievements:
+      - title: Sistemas de Saúde
+        description: Arquitetura de sistema de prontuário eletrônico (EHR) em conformidade com o padrão <strong>HL7</strong>, decompondo fluxos complexos em microsserviços para isolamento de falhas e escalabilidade.
+      - title: Propriedade de Serviços
+        description: Engenharia do ciclo de vida de &quot;Pedidos e Resultados&quot; (Orders/Results) usando <strong>NestJS, Kafka e PostgreSQL</strong>, automatizando a integração entre médicos e laboratórios.
+      - title: Engenharia de Performance
+        description: Utilização de <strong>Datadog e LogRocket</strong> para identificar gargalos, implementando camadas de cache com <strong>Redis</strong> para melhorar drasticamente o tempo de resposta percebido pelo usuário.
+      - title: DevOps Moderno
+        description: Gerenciamento de deploys conteinerizados em <strong>AWS EKS (Kubernetes)</strong> via <strong>ArgoCD</strong>; garantia de qualidade através de <strong>Vitest, Jest e Testcontainers</strong>.
+  - company: Jungle Scout
+    role: Engenheiro de Software Sênior
+    dates: ''
+    achievements:
+      - title: Pipelines de Dados em Larga Escala
+        description: Design e manutenção de pipeline robusto de scraping e refinamento de dados para um catálogo de produtos da Amazon com mais de <strong>500M de registros</strong> usando <strong>AWS Redshift</strong>.
+      - title: Otimização de Latência
+        description: Reengenharia das camadas de UI e API para atingir <strong>latência P99 em milissegundos</strong>, melhorando significativamente a responsividade dos dashboards para vendedores da Amazon.
+      - title: Arquitetura de Billing Cloud-Native
+        description: Desenvolvimento de motor de faturamento orientado a eventos usando <strong>AWS CDK, EventBridge e DynamoDB</strong> para rastrear o uso de APIs em tempo real e evitar abuso de recursos.
+      - title: Integração de IA
+        description: Adoção precoce do <strong>GitHub Copilot</strong> para acelerar ciclos de desenvolvimento e automatizar geração de código boilerplate em stack poliglota (Node.js, Ruby, Python).
+  - company: Synchro Solução Fiscal
+    role: Arquiteto de Software
+    dates: ''
+    achievements:
+      - title: Liderança Arquitetural
+        description: Direção do SDLC completo para sistemas fiscais de alta disponibilidade, alinhando viabilidade técnica com prazos de negócio.
+      - title: Migração de Grande Escala
+        description: Liderança da migração de um ecossistema frontend massivo (<strong>2.500+ componentes</strong>) de JavaScript para <strong>TypeScript</strong>, aumentando a segurança de tipos e a velocidade de desenvolvimento.
+      - title: Qualidade de Engenharia
+        description: Configuração de pipelines de <strong>GitLab CI</strong> para automação de testes e qualidade; realização de code reviews rigorosos focados em <strong>SOLID</strong> e <strong>Clean Code</strong>.
+  - company: Synchro Solução Fiscal
+    role: Engenheiro de Software Full Stack Sênior
+    dates: ''
+    achievements:
+      - title: Pivot para Programação Funcional
+        description: Extração de lógica core de um monólito Spring Boot para um microsserviço em <strong>Clojure</strong>, visando melhor escalabilidade e manutenibilidade.
+      - title: Engenharia de Performance
+        description: Alcance de <strong>40% de redução no consumo de memória das VMs</strong> através da gestão eficiente de recursos do Clojure e tunagem de JVM.
+      - title: Estratégia de Dados
+        description: Integração com <strong>SAP HANA (v1/v2)</strong> utilizando JDBC e Calculation Views para processar lógicas fiscais complexas de alto volume.
+      - title: Capacitação de Equipe
+        description: Treinamento do time em <strong>React.js, MobX e ES6+</strong>, estabelecendo padrões de UI modernos e componentes reutilizáveis.
+  - company: Synchro Solução Fiscal
+    role: Desenvolvedor Full Stack / Analista JEE
+    dates: ''
+    achievements:
+      - title: Cloud &amp; Mensageria
+        description: Desenvolvimento de serviços escaláveis com <strong>Spring Boot, Groovy e AWS</strong>; implementação de mensageria assíncrona via <strong>RabbitMQ e ActiveMQ</strong>.
+      - title: Automação e Ferramentas
+        description: Criação de ferramentas de automação desktop em <strong>Python (Sikuli/OpenCV)</strong> para otimizar fluxos manuais internos.
+      - title: Sistemas de Conformidade
+        description: Construção de motores de atualização legal tributária usando <strong>Grails e Groovy</strong> que permanecem em produção contínua até hoje.
+  - company: IBM
+    role: Desenvolvedor de Software
+    dates: ''
+    achievements:
+      - title: Suporte Global
+        description: Manutenção de sistemas de billing da Sprint/Nextel (milhões de registros) utilizando <strong>VB.NET, Java e PL/SQL</strong> em ambiente Unix AIX.
+      - title: Eficiência de Processos
+        description: Automação de relatórios financeiros via <strong>Crystal Reports</strong>, economizando <strong>20 horas semanais</strong> de esforço manual da equipe.
+  - company: AKB IT Solutions
+    role: Estagiário de Desenvolvimento Backend
+    dates: ''
+    achievements:
+      - title: Otimização de Banco de Dados
+        description: Desenvolvimento e tunagem de queries complexas e lógica de banco de dados usando <strong>PL/SQL</strong> e <strong>Oracle</strong>.
+education:
+  - degree: MBA em Arquitetura de Software
+    institution: Full Cycle
+    year: '2025'
+  - degree: MBA em Gestão Estratégica de Negócios
+    institution: Anhanguera Educacional
+    year: '2010'
+  - degree: Bacharelado em Análise de Sistemas
+    institution: Centro Universitário Salesiano de São Paulo - UNISAL
+    year: '2008'
+  - degree: Técnico em Informática
+    institution: ETE Polivalente de Americana
+    year: '2004'

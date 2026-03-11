@@ -1,0 +1,161 @@
+name: Jefferson Mariano de Souza
+title: Senior Software Engineer | Software Architect
+location: ''
+contact:
+  phone: ''
+  email: jefferson.msouza86@gmail.com
+  linkedin: https://www.linkedin.com/in/jefferson-mariano-de-souza/
+  github: https://github.com/studiojms
+summary: Senior Software Engineer and Architect with 20+ years of experience building scalable, high-availability distributed systems. Expert in <strong>TypeScript (Node.js/React)</strong>, <strong>Java</strong>, and <strong>Python</strong> within <strong>AWS Cloud-native</strong> environments (EKS, CDK, Lambda). Proven track record of leading massive migrations (2,500+ components), designing event-driven microservices, and optimizing data architectures for catalogs exceeding <strong>500M records</strong> with <strong>sub-second P99 latency</strong>. MBA-educated in Software Architecture with a focus on <strong>Spec-Driven Development</strong> and AI-augmented engineering.
+skills:
+  AI & Productivity:
+    - GitHub Copilot
+    - Cursor
+    - Claude
+    - Spec-Driven Development
+  Languages:
+    - TypeScript
+    - Java
+    - Clojure
+    - Python
+    - Groovy
+    - Ruby
+    - SQL
+    - PL/SQL
+  Frameworks:
+    - Node.js (NestJS)
+    - React
+    - Next.js
+    - Spring Boot
+    - Grails
+    - Django
+    - RoR
+  Cloud & DevOps:
+    - AWS (CDK
+    - EKS
+    - Lambda
+    - SQS
+    - SNS
+    - EventBridge)
+    - Docker
+    - Kubernetes
+    - ArgoCD
+    - GitLab CI
+  Data & Storage:
+    - PostgreSQL
+    - Oracle
+    - MongoDB
+    - DynamoDB
+    - Redis
+    - Redshift
+    - OpenSearch
+    - SAP HANA
+  Architecture:
+    - Microservices
+    - Event-Driven Design
+    - Functional Programming
+    - gRPC
+    - HL7
+    - Kafka
+experience:
+  - company: Engine
+    role: Senior Software Engineer
+    dates: ''
+    achievements:
+      - title: AI-Augmented Engineering
+        description: Spearheaded <strong>Spec-Driven Development</strong> using <strong>GitHub Copilot, Cursor, and Claude</strong> to increase output fidelity, resulting in faster feature delivery and a significant reduction in logic failures.
+      - title: Search API Optimization
+        description: Lead backend integrations via <strong>gRPC</strong> for a high-traffic travel search engine (flights, lodging, cars), ensuring strict data contract compliance across distributed microservices.
+      - title: Technical Leadership
+        description: Collaborating with Product Managers to translate complex business requirements into high-performance <strong>Node.js/TypeScript</strong> services on <strong>AWS</strong>.
+  - company: Akido Labs
+    role: Senior Software Engineer
+    dates: ''
+    achievements:
+      - title: Healthcare Systems
+        description: Architected an <strong>HL7-compliant EHR system</strong>, decomposing large-scale medical workflows into domain-driven microservices for maximum fault isolation and scalability.
+      - title: Service Ownership
+        description: Engineered the &quot;Orders and Results&quot; lifecycle using <strong>NestJS, Kafka, and PostgreSQL</strong>, automating the end-to-end integration between physicians and laboratories.
+      - title: Performance Engineering
+        description: Utilized <strong>Datadog and LogRocket</strong> to identify bottlenecks, implementing <strong>Redis caching</strong> to drastically improve user-perceived speed and query responsiveness.
+      - title: Modern CI/CD
+        description: Orchestrated containerized deployments on <strong>AWS EKS (Kubernetes)</strong> via <strong>ArgoCD</strong> pipelines; enforced quality through <strong>Vitest, Jest, and Testcontainers</strong>.
+  - company: Jungle Scout
+    role: Senior Software Engineer
+    dates: ''
+    achievements:
+      - title: High-Scale Data Pipelines
+        description: Designed and maintained a robust scraping and data-polishing pipeline supporting a catalog of <strong>500M+ products</strong> using <strong>AWS Redshift</strong>.
+      - title: Latency Optimization
+        description: Re-engineered UI and API layers to achieve <strong>P99 latency within milliseconds</strong>, significantly improving dashboard responsiveness for Amazon sellers.
+      - title: FinOps &amp; Billing Architecture
+        description: Designed a cloud-native, event-driven billing engine using <strong>AWS CDK, EventBridge, and DynamoDB</strong> to track real-time API usage and prevent resource abuse.
+      - title: AI Integration
+        description: Leveraged <strong>GitHub Copilot</strong> to accelerate development cycles and automate boilerplate code generation across a polyglot stack (Node.js, Ruby, Python).
+  - company: Synchro
+    role: Software Architect
+    dates: ''
+    achievements:
+      - title: Architectural Leadership
+        description: Directed the full SDLC for high-availability tax systems, aligning technical feasibility with business deadlines in collaboration with Product Owners.
+      - title: Large-Scale Migration
+        description: Spearheaded the transition of a massive frontend ecosystem (<strong>2,500+ components</strong>) from JavaScript to <strong>TypeScript</strong>, significantly increasing type safety and developer velocity.
+      - title: Engineering Quality
+        description: Engineered <strong>GitLab CI pipelines</strong> to automate testing/quality gates and conducted rigorous code reviews to enforce <strong>SOLID</strong> and <strong>Clean Code</strong> principles.
+  - company: Synchro
+    role: Senior Full Stack Developer
+    dates: ''
+    achievements:
+      - title: Functional Programming Pivot
+        description: Extracted core business logic from a Spring Boot monolith into a <strong>Clojure-based</strong> microservice to leverage functional paradigms for better scalability.
+      - title: Performance Engineering
+        description: Achieved a <strong>40% reduction in VM memory consumption</strong> through Clojure&#39;s efficient resource management and optimized JVM tuning.
+      - title: Data Strategy
+        description: Integrated <strong>SAP HANA (v1/v2)</strong> using JDBC and calculation views to handle complex, high-volume tax calculation logic.
+      - title: Team Upskilling
+        description: Led staff training on <strong>React.js, MobX, and ES6+</strong>, establishing modern UI benchmarks and component-based design patterns across the organization.
+  - company: Synchro
+    role: Full Stack Developer
+    dates: ''
+    achievements:
+      - title: Cloud &amp; Messaging
+        description: Developed scalable services using <strong>Spring Boot, Groovy, and AWS (EC2, SQS, S3)</strong>; implemented asynchronous messaging via <strong>RabbitMQ and ActiveMQ</strong>.
+      - title: Automation Tooling
+        description: Built custom desktop automation tools using <strong>Python (Sikuli/OpenCV)</strong> to streamline internal manual workflows.
+      - title: Database Management
+        description: Managed schema evolution across <strong>PostgreSQL, Oracle, and MongoDB</strong> using <strong>Liquibase</strong> for version-controlled deployments.
+  - company: Synchro
+    role: JEE Developer Analyst / Java Developer
+    dates: ''
+    achievements:
+      - title: High-Availability Compliance
+        description: Built mission-critical tax legal update engines using <strong>Grails and Groovy</strong> that remain in continuous production today.
+      - title: Operational Systems
+        description: Developed a company-wide ticket and timesheet management system using <strong>Hibernate and ICEfaces</strong>, supporting 100% of internal employees and customers.
+  - company: IBM
+    role: Software Developer
+    dates: ''
+    achievements:
+      - title: Global Support
+        description: Maintained Sprint/Nextel billing systems (millions of records) using <strong>VB.NET, Java, and PL/SQL</strong> in a Unix AIX environment.
+      - title: Process Efficiency
+        description: Automated financial reporting via <strong>Crystal Reports</strong>, reducing manual effort by <strong>20 hours per week</strong>.
+  - company: AKB IT Solutions
+    role: Backend Developer Intern
+    dates: ''
+    achievements:
+      - title: Database Optimization
+        description: Developed and tuned complex queries and database logic using <strong>PL/SQL</strong> and <strong>Oracle</strong>, focusing on performance tuning and data integrity.
+education:
+  - degree: MBA in Software Architecture
+    institution: Full Cycle
+    year: '2025'
+  - degree: MBA in Strategic Business Management
+    institution: Anhanguera Educacional
+    year: '2010'
+  - degree: B.S. in Computer System Analysis
+    institution: Centro Universitário Salesiano de São Paulo - UNISAL
+    year: '2008'
+  - degree: Technical IT Degree
+    institution: ETE Polivalente de Americana
+    year: '2004'

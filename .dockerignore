@@ -1,0 +1,13 @@
+.git
+.gitignore
+_site
+.jekyll-cache
+.sass-cache
+node_modules
+vendor
+Gemfile.lock
+package-lock.json
+README.md
+Dockerfile
+docker-compose.yml
+.dockerignore

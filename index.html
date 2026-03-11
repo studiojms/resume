@@ -1,0 +1,92 @@
+---
+layout: default
+title: Resume
+lang: en
+lang_suffix: ''
+---
+
+{% assign resume = site.data.resume %}
+
+<div class="resume-container">
+  <div class="no-print controls">
+    {% include language-switcher.html %}
+    <button onclick="exportToPDF()" class="pdf-button">Export to PDF</button>
+  </div>
+
+  <div class="resume-content" id="resume-content">
+    <header class="resume-header">
+      <h1>{{ resume.name }}</h1>
+      <div class="title">{{ resume.title }}</div>
+      <div class="contact-info">
+        {% if resume.location and resume.location != '' and resume.location != '[City, State/Remote]' %}<span
+          class="location"
+          >{{ resume.location }}</span
+        >{% endif %} {% if resume.contact.phone and resume.contact.phone != '' %}<span class="phone"
+          >{{ resume.contact.phone }}</span
+        >{% endif %} {% if resume.contact.email and resume.contact.email != '' %}<span class="email"
+          >{{ resume.contact.email }}</span
+        >{% endif %} {% if resume.contact.linkedin and resume.contact.linkedin != '' and resume.contact.linkedin !=
+        '[LinkedIn Profile Link]' %}<a href="{{ resume.contact.linkedin }}" class="linkedin">LinkedIn</a>{% endif %} {%
+        if resume.contact.github and resume.contact.github != '' and resume.contact.github != '[GitHub/Portfolio Link]'
+        %}<a href="{{ resume.contact.github }}" class="github">GitHub</a>{% endif %}
+      </div>
+    </header>
+
+    {% if resume.summary and resume.summary != '' %}
+    <section class="resume-section">
+      <h2>Professional Summary</h2>
+      <p>{{ resume.summary }}</p>
+    </section>
+    {% endif %} {% if resume.skills and resume.skills.size > 0 %}
+    <section class="resume-section">
+      <h2>Technical Skills</h2>
+      <div class="skills-list">
+        {% for skill in resume.skills %} {% if skill[1] and skill[1].size > 0 %}
+        <div class="skill-category">
+          <strong>{{ skill[0] }}:</strong>
+          <span>{{ skill[1] | join: ', ' }}</span>
+        </div>
+        {% endif %} {% endfor %}
+      </div>
+    </section>
+    {% endif %} {% if resume.experience %}
+    <section class="resume-section">
+      <h2>Professional Experience</h2>
+      {% for job in resume.experience %}
+      <div class="experience-item">
+        <div class="experience-header">
+          {% if job.company and job.company != '' %}
+          <h3>{{ job.company }}</h3>
+          {% endif %}
+          <div class="job-details">
+            {% if job.role and job.role != '' %}<span class="job-title">{{ job.role }}</span>{% endif %} {% if job.dates
+            and job.dates != '' %}<span class="job-dates">{{ job.dates }}</span>{% endif %}
+          </div>
+        </div>
+        {% if job.achievements and job.achievements.size > 0 %}
+        <ul class="achievements">
+          {% for achievement in job.achievements %} {% if achievement.title and achievement.title != '' and
+          achievement.description and achievement.description != '' %}
+          <li><strong>{{ achievement.title }}:</strong> {{ achievement.description }}</li>
+          {% endif %} {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %} {% if resume.education and resume.education.size > 0 %}
+    <section class="resume-section">
+      <h2>Education</h2>
+      <ul class="education-list">
+        {% for edu in resume.education %} {% if edu.degree and edu.degree != '' %}
+        <li>
+          <strong>{{ edu.degree }}</strong>
+          {% if edu.institution and edu.institution != '' %} | {{ edu.institution }}{% endif %} {% if edu.year and
+          edu.year != '' %} | {{ edu.year }}{% endif %}
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </div>
+</div>

@@ -1,8 +1,8 @@
 # Jekyll Configuration
 title: Resume
 description: Professional Resume
-url: "" # your site URL (e.g., https://username.github.io)
-baseurl: "" # your site's base path (e.g., /resume for username.github.io/resume)
+url: "https://studiojms.github.io" # your site URL (e.g., https://username.github.io)
+baseurl: "/resume" # your site's base path (e.g., /resume for username.github.io/resume)
 
 # Build settings
 markdown: kramdown

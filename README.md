@@ -222,8 +222,6 @@ resume/
 └── .github/
     └── workflows/
         └── deploy.yml          # GitHub Actions workflow
-```
-
 ├── \_layouts/
 │ └── default.html # HTML layout
 ├── assets/
@@ -240,7 +238,7 @@ resume/
 └── workflows/
 └── deploy.yml # GitHub Actions workflow
 
-````
+```
 
 ## Development
 
@@ -262,7 +260,7 @@ resume/
 ```bash
 npm run parse
 bundle exec jekyll build
-````
+```
 
 The generated site will be in the `_site` directory.
 

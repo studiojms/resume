@@ -160,6 +160,44 @@ Press `Ctrl+P` (Windows/Linux) or `Cmd+P` (Mac) to trigger the PDF export.
 - ✅ Automatic filename based on your name
 - ✅ Optimized for letter-size pages
 
+## Page View Analytics
+
+The resume includes hidden page view counters that track how many times each language version has been viewed. The counters are completely invisible to visitors, maintaining a professional appearance.
+
+### Viewing Page Counts
+
+Check your page view statistics at any time:
+
+**English Resume:**
+
+```
+https://hits.sh/studiojms.github.io/resume.svg?label=Views&style=flat
+```
+
+**Portuguese Resume:**
+
+```
+https://hits.sh/studiojms.github.io/resume/pt-br.svg?label=Views&style=flat
+```
+
+### How It Works
+
+- Each language version tracks visits separately
+- Counters are hidden from visitors (no visual impact on the resume)
+- The count starts from deployment and increments with each page load
+- View the badge URLs above anytime to see current counts
+- No configuration or API keys required
+
+### Optional: Display Counters Publicly
+
+If you want to show the view count on your resume, you can make the counters visible by:
+
+1. Open the HTML file (`index.html` or `pt-br.html`)
+2. Find the page view counter `<img>` tag near the bottom
+3. Remove the `style="display:none;"` attribute
+
+The view counter will then appear as a small badge on the page.
+
 ## Deploying to GitHub Pages
 
 ### Initial Setup

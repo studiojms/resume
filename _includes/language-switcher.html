@@ -5,9 +5,9 @@
   {% for lang in site.data.languages.available %} {% if lang.code == page.lang %}
   <span class="lang-current">{{ lang.name }}</span>
   {% elsif lang.code == 'en' %}
-  <a href="/" class="lang-link">{{ lang.name }}</a>
+  <a href="{{ site.baseurl }}/" class="lang-link">{{ lang.name }}</a>
   {% else %}
-  <a href="/pt-br" class="lang-link">{{ lang.name }}</a>
+  <a href="{{ site.baseurl }}/pt-br" class="lang-link">{{ lang.name }}</a>
   {% endif %} {% unless forloop.last %}<span class="lang-separator">|</span>{% endunless %} {% endfor %}
 </div>
 {% endif %}

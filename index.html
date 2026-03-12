@@ -26,9 +26,10 @@ lang_suffix: ''
         >{% endif %} {% if resume.contact.email and resume.contact.email != '' %}<span class="email"
           >{{ resume.contact.email }}</span
         >{% endif %} {% if resume.contact.linkedin and resume.contact.linkedin != '' and resume.contact.linkedin !=
-        '[LinkedIn Profile Link]' %}<a href="{{ resume.contact.linkedin }}" class="linkedin">LinkedIn</a>{% endif %} {%
-        if resume.contact.github and resume.contact.github != '' and resume.contact.github != '[GitHub/Portfolio Link]'
-        %}<a href="{{ resume.contact.github }}" class="github">GitHub</a>{% endif %}
+        '[LinkedIn Profile Link]' %}<a href="{{ resume.contact.linkedin }}" class="linkedin" target="_blank">LinkedIn</a
+        >{% endif %} {% if resume.contact.github and resume.contact.github != '' and resume.contact.github !=
+        '[GitHub/Portfolio Link]' %}<a href="{{ resume.contact.github }}" class="github" target="_blank">GitHub</a>{%
+        endif %}
       </div>
     </header>
 

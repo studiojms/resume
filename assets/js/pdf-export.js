@@ -20,9 +20,9 @@
     const opt = {
       margin: [0.5, 0.5, 0.5, 0.5],
       filename: filename,
-      image: { type: 'jpeg', quality: 0.98 },
+      image: { type: 'jpeg', quality: 0.8 },
       html2canvas: {
-        scale: 2,
+        scale: 1.5,
         useCORS: true,
         letterRendering: true,
       },
@@ -30,6 +30,7 @@
         unit: 'in',
         format: 'letter',
         orientation: 'portrait',
+        compress: true,
       },
       pagebreak: { mode: ['avoid-all', 'css', 'legacy'] },
     };

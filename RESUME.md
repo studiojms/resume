@@ -8,13 +8,15 @@ jefferson.msouza86@gmail.com | https://www.linkedin.com/in/jefferson-mariano-de-
 
 ### **PROFESSIONAL SUMMARY**
 
-Senior Software Engineer and Architect with 20+ years of experience building scalable, high-availability distributed systems. Expert in **TypeScript (Node.js/React)**, **Java**, and **Python** within **AWS Cloud-native** environments (EKS, CDK, Lambda). Proven track record of leading massive migrations (2,500+ components), designing event-driven microservices, and optimizing data architectures for catalogs exceeding **500M records** with **sub-second P99 latency**. MBA-educated in Software Architecture with a focus on **Spec-Driven Development** and AI-augmented engineering.
+Senior Software Engineer and Architect with 20+ years of experience building scalable, high-availability distributed systems. Proven expertise in implementing AI-Augmented Engineering workflows using Spec-Driven Development (SDD) and autonomous agent orchestration to maximize SDLC fidelity and speed. Expert in **TypeScript (Node.js/React)**, **Java**, and **Python** within **AWS Cloud-native** environments (EKS, CDK, Lambda). Proven track record of leading massive migrations (2,500+ components), designing event-driven microservices, and optimizing data architectures for catalogs exceeding **500M records** with **sub-second P99 latency**. MBA-educated in Software Architecture with a focus on **Spec-Driven Development** and AI-augmented engineering.
 
 ---
 
 ### **TECHNICAL SKILLS**
 
-- **AI & Productivity:** GitHub Copilot, Cursor, Claude, Spec-Driven Development.
+- **AI & Agents:** Spec-Driven Development (SDD), Multi-agent Orchestration, Task Delegation to Subagents, Custom Skills/Rules Creation for LLMs.
+- **AI Tools:** Cursor, Claude Code, GitHub Copilot, Integration with MCPs (Model Context Protocol).
+- **Backend:** Node.js, TypeScript, gRPC, AWS (EKS, CDK), Event-Driven System Design.
 - **Languages:** TypeScript, Java, Clojure, Python, Groovy, Ruby, SQL, PL/SQL.
 - **Frameworks:** Node.js (NestJS), React, Next.js, Spring Boot, Grails, Django, RoR.
 - **Cloud & DevOps:** AWS (CDK, EKS, Lambda, SQS, SNS, EventBridge), Docker, Kubernetes, ArgoCD, GitLab CI.
@@ -27,9 +29,11 @@ Senior Software Engineer and Architect with 20+ years of experience building sca
 
 **Engine** | **Senior Software Engineer** | _Oct 2025 – Present_
 
-- **AI-Augmented Engineering:** Spearheaded **Spec-Driven Development** using **GitHub Copilot, Cursor, and Claude** to increase output fidelity, resulting in faster feature delivery and a significant reduction in logic failures.
-- **Search API Optimization:** Lead backend integrations via **gRPC** for a high-traffic travel search engine (flights, lodging, cars), ensuring strict data contract compliance across distributed microservices.
-- **Technical Leadership:** Collaborating with Product Managers to translate complex business requirements into high-performance **Node.js/TypeScript** services on **AWS**.
+- **AI-Augmented Software Engineering:** Implemented **Spec-Driven Development (SDD)**-based workflows, leveraging AI for complex task planning and autonomous execution via subagents.
+- **LLM Orchestration:** Developed and maintained custom **Skills and Rules** for AI agents, delegating granular tasks to subagents and integrating them via **MCPs (Model Context Protocol)** for external tool and context access.
+- **SDLC Optimization:** Drastically reduced development cycle time and increased code fidelity through automation of AI-mediated technical design and architecture review processes.
+- **Search & gRPC Architecture:** Designed high-performance integrations using **gRPC** for global travel search modules, ensuring rigorous data contract compliance between microservices and AI agents.
+- **Search API Optimization:** Responsible for backend integrations via **gRPC** for a high-traffic travel search engine, ensuring rigorous data contract compliance between microservices.
 
 **Akido Labs** | **Senior Software Engineer** | _Jul 2024 – Oct 2025_
 

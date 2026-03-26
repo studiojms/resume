@@ -8,13 +8,15 @@ jefferson.msouza86@gmail.com | https://www.linkedin.com/in/jefferson-mariano-de-
 
 ### **RESUMO PROFISSIONAL**
 
-Engenheiro de Software Sênior e Arquiteto com mais de 20 anos de experiência no desenvolvimento de sistemas distribuídos de alta disponibilidade e escala. Especialista em **TypeScript (Node.js/React)**, **Java** e **Python** em ambientes **Cloud-native AWS** (EKS, CDK, Lambda). Histórico comprovado na liderança de migrações massivas (2.500+ componentes), design de microsserviços orientados a eventos e otimização de arquiteturas de dados para catálogos com mais de **500 milhões de registros** e **latência P99 em milissegundos**. MBA em Arquitetura de Software com foco em **Spec-Driven Development** e engenharia aumentada por IA.
+Engenheiro de Software Sênior e Arquiteto com mais de 20 anos de experiência no desenvolvimento de sistemas distribuídos de alta disponibilidade e escala. Atuante na implementação de fluxos de Engenharia Aumentada por IA, utilizando Spec-Driven Development (SDD) e orquestração de agentes autônomos para maximizar a fidelidade e velocidade do SDLC. Especialista em **TypeScript (Node.js/React)**, **Java** e **Python** em ambientes **Cloud-native AWS** (EKS, CDK, Lambda). Histórico comprovado na liderança de migrações massivas (2.500+ componentes), design de microsserviços orientados a eventos e otimização de arquiteturas de dados para catálogos com mais de **500 milhões de registros** e **latência P99 em milissegundos**. MBA em Arquitetura de Software com foco em **Spec-Driven Development** e engenharia aumentada por IA.
 
 ---
 
 ### **HABILIDADES TÉCNICAS**
 
-- **IA & Produtividade:** GitHub Copilot, Cursor, Claude, Spec-Driven Development.
+- **Engenharia de IA & Agentes:** Spec-Driven Development (SDD), Orquestração de Multi-agentes, Delegação de tarefas para subagentes, Criação de Custom Skills/Rules para LLMs.
+- **Ferramentas de IA:** Cursor, Claude Code, GitHub Copilot, Integração com MCPs (Model Context Protocol).
+- **Backend:** Node.js, TypeScript, gRPC, AWS (EKS, CDK), Design de Sistemas Orientado a Eventos.
 - **Linguagens:** TypeScript, Java, Clojure, Python, Groovy, Ruby, SQL, PL/SQL.
 - **Frameworks:** Node.js (NestJS), React, Next.js, Spring Boot, Grails, Django, RoR.
 - **Cloud & DevOps:** AWS (CDK, EKS, Lambda, SQS, SNS, EventBridge), Docker, Kubernetes, ArgoCD, GitLab CI.
@@ -27,9 +29,11 @@ Engenheiro de Software Sênior e Arquiteto com mais de 20 anos de experiência n
 
 **Engine** | **Engenheiro de Software Sênior** | _Out 2025 – Presente_
 
-- **Engenharia Aumentada por IA:** Liderança do **Spec-Driven Development** utilizando **GitHub Copilot, Cursor e Claude** para aumentar a fidelidade das entregas, acelerando o desenvolvimento e reduzindo falhas de lógica.
+- **Engenharia de Software Aumentada por Agentes:** Implementação de fluxos de trabalho baseados em **Spec-Driven Development (SDD)**, utilizando IA para o planejamento de tarefas complexas e execução autônoma via subagentes.
+- **Orquestração de LLMs:** Desenvolvimento e manutenção de **Skills e Rules** personalizadas para agentes de IA, delegando tarefas granulares a subagentes e integrando-os via **MCPs (Model Context Protocol)** para acesso a ferramentas e contextos externos.
+- **Otimização do Ciclo de Vida (SDLC):** Redução drástica no tempo de ciclo de desenvolvimento e aumento da fidelidade do código através da automação de processos de design técnico e revisões de arquitetura mediadas por IA.
+- **Arquitetura de Busca & gRPC:** Design de integrações de alta performance utilizando **gRPC** para módulos globais de busca, garantindo contratos de dados rigorosos entre microsserviços e agentes de IA.
 - **Otimização de APIs de Busca:** Responsável por integrações de backend via **gRPC** para um motor de busca de viagens de alto tráfego, garantindo conformidade rigorosa dos contratos de dados entre microsserviços.
-- **Liderança Técnica:** Colaboração direta com Product Managers para traduzir requisitos de negócio complexos em serviços de alta performance em **Node.js/TypeScript** na **AWS**.
 
 **Akido Labs** | **Engenheiro de Software Sênior** | _Jul 2024 – Out 2025_
 

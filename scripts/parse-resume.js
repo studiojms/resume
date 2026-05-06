@@ -107,7 +107,7 @@ function parseResume(markdownContent) {
     }
 
     // Parse summary
-    if (currentSection === 'summary' && line && !line.startsWith('---') && !line.startsWith('###')) {
+    if (currentSection === 'summary' && !line.startsWith('---') && !line.startsWith('###')) {
       summaryLines.push(line);
     }
 
@@ -127,13 +127,14 @@ function parseResume(markdownContent) {
         resume.experience.push(currentCompany);
       }
 
-      // Format: **Company** | **Role** _Dates_
+      // Format: **Company** | **Role** | _Dates_
       const parts = line.split('|').map((p) => p.trim());
       const companyName = parts[0].replace(/\*\*/g, '').trim();
       const rolePart = parts[1] || '';
+      const datePart = parts[2] || '';
 
       const roleMatch = rolePart.match(/\*\*([^*]+)\*\*/);
-      const dateMatch = rolePart.match(/_([^_]+)_/);
+      const dateMatch = datePart.match(/_([^_]+)_/);
 
       currentCompany = {
         company: companyName,
@@ -145,13 +146,20 @@ function parseResume(markdownContent) {
     }
 
     // Parse experience bullets
-    if (currentSection === 'experience' && line.startsWith('- **') && currentCompany) {
-      const bulletMatch = line.match(/- \*\*([^:]+):\*\*\s*(.+)/);
-      if (bulletMatch) {
+    if (currentSection === 'experience' && line.startsWith('- ') && currentCompany) {
+      // Check if it has a title (format: - **Title:** description)
+      const bulletWithTitleMatch = line.match(/- \*\*([^:]+):\*\*\s*(.+)/);
+      if (bulletWithTitleMatch) {
         currentCompany.achievements.push({
-          title: bulletMatch[1].trim(),
-          description: bulletMatch[2].trim(),
+          title: bulletWithTitleMatch[1].trim(),
+          description: bulletWithTitleMatch[2].trim(),
         });
+      } else {
+        // Simple bullet without title (format: - description)
+        const simpleBullet = line.replace(/^-\s*/, '').trim();
+        if (simpleBullet) {
+          currentCompany.achievements.push(simpleBullet);
+        }
       }
     }
 
@@ -174,14 +182,45 @@ function parseResume(markdownContent) {
     resume.experience.push(currentCompany);
   }
 
-  // Join summary lines and convert markdown
-  resume.summary = parseMarkdown(summaryLines.join(' ').trim());
+  // Process summary with paragraph support
+  // Split by empty lines to preserve paragraphs
+  const paragraphs = [];
+  let currentParagraph = [];
+
+  summaryLines.forEach((line) => {
+    if (line.trim() === '') {
+      if (currentParagraph.length > 0) {
+        paragraphs.push(currentParagraph.join(' '));
+        currentParagraph = [];
+      }
+    } else {
+      currentParagraph.push(line);
+    }
+  });
+
+  // Add last paragraph if exists
+  if (currentParagraph.length > 0) {
+    paragraphs.push(currentParagraph.join(' '));
+  }
+
+  // Convert each paragraph to HTML and join with paragraph tags
+  if (paragraphs.length > 0) {
+    resume.summary = paragraphs.map((p) => `<p>${parseMarkdown(p.trim())}</p>`).join('\n');
+  } else {
+    resume.summary = '';
+  }
 
   // Convert markdown in all text fields
   resume.experience.forEach((job) => {
-    job.achievements.forEach((achievement) => {
-      achievement.title = parseMarkdown(achievement.title);
-      achievement.description = parseMarkdown(achievement.description);
+    job.achievements = job.achievements.map((achievement) => {
+      if (typeof achievement === 'string') {
+        return parseMarkdown(achievement);
+      } else {
+        return {
+          title: parseMarkdown(achievement.title),
+          description: parseMarkdown(achievement.description),
+        };
+      }
     });
   });
 

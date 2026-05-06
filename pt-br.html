@@ -36,7 +36,7 @@ permalink: /pt-br
     {% if resume.summary and resume.summary != '' %}
     <section class="resume-section">
       <h2>Resumo Profissional</h2>
-      <p>{{ resume.summary }}</p>
+      {{ resume.summary }}
     </section>
     {% endif %} {% if resume.skills and resume.skills.size > 0 %}
     <section class="resume-section">
@@ -66,9 +66,10 @@ permalink: /pt-br
         </div>
         {% if job.achievements and job.achievements.size > 0 %}
         <ul class="achievements">
-          {% for achievement in job.achievements %} {% if achievement.title and achievement.title != '' and
-          achievement.description and achievement.description != '' %}
+          {% for achievement in job.achievements %} {% if achievement.title %}
           <li><strong>{{ achievement.title }}:</strong> {{ achievement.description }}</li>
+          {% else %}
+          <li>{{ achievement }}</li>
           {% endif %} {% endfor %}
         </ul>
         {% endif %}

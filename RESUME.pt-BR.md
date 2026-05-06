@@ -1,27 +1,31 @@
 # Jefferson Mariano de Souza
 
 **Engenheiro de Software Sênior | Arquiteto de Software**
-Santa Bárbara d'Oeste/SP
+São Paulo, Brasil
 jefferson.msouza86@gmail.com | https://www.linkedin.com/in/jefferson-mariano-de-souza/ | https://github.com/studiojms
 
 ---
 
 ### **RESUMO PROFISSIONAL**
 
-Engenheiro de Software Sênior e Arquiteto com mais de 20 anos de experiência no desenvolvimento de sistemas distribuídos de alta disponibilidade e escala. Atuante na implementação de fluxos de Engenharia Aumentada por IA, utilizando Spec-Driven Development (SDD) e orquestração de agentes autônomos para maximizar a fidelidade e velocidade do SDLC. Especialista em **TypeScript (Node.js/React)**, **Java** e **Python** em ambientes **Cloud-native AWS** (EKS, CDK, Lambda). Histórico comprovado na liderança de migrações massivas (2.500+ componentes), design de microsserviços orientados a eventos e otimização de arquiteturas de dados para catálogos com mais de **500 milhões de registros** e **latência P99 em milissegundos**. MBA em Arquitetura de Software com foco em **Spec-Driven Development** e engenharia aumentada por IA.
+Engenheiro de Software Sênior com mais de 20 anos de experiência na construção de sistemas escaláveis e de alto desempenho em ambientes backend e fullstack. Forte expertise em arquitetura nativa da nuvem (AWS, Kubernetes), microsserviços e sistemas orientados a eventos.
+
+Histórico comprovado na entrega de sistemas em larga escala, incluindo plataformas de dados que suportam mais de 500 milhões de registros e migrações de frontend com mais de 2.500 componentes. Experiência em otimização de desempenho, redução de latência e design de sistemas distribuídos resilientes.
+
+Proficiência avançada em TypeScript (Node.js), Java e Python, com experiência prática em frameworks modernos de frontend (React, Next.js). Recentemente focado em fluxos de trabalho de desenvolvimento aumentados por IA e melhorias de produtividade para desenvolvedores.
 
 ---
 
 ### **HABILIDADES TÉCNICAS**
 
-- **Engenharia de IA & Agentes:** Spec-Driven Development (SDD), Orquestração de Multi-agentes, Delegação de tarefas para subagentes, Criação de Custom Skills/Rules para LLMs.
-- **Ferramentas de IA:** Cursor, Claude Code, GitHub Copilot, Integração com MCPs (Model Context Protocol).
-- **Backend:** Node.js, TypeScript, gRPC, AWS (EKS, CDK), Design de Sistemas Orientado a Eventos.
-- **Linguagens:** TypeScript, Java, Clojure, Python, Groovy, Ruby, SQL, PL/SQL.
-- **Frameworks:** Node.js (NestJS), React, Next.js, Spring Boot, Grails, Django, RoR.
-- **Cloud & DevOps:** AWS (CDK, EKS, Lambda, SQS, SNS, EventBridge), Docker, Kubernetes, ArgoCD, GitLab CI.
-- **Dados & Storage:** PostgreSQL, Oracle, MongoDB, DynamoDB, Redis, Redshift, OpenSearch, SAP HANA.
-- **Arquitetura:** Microsserviços, Event-Driven Design, Programação Funcional, gRPC, HL7, Kafka.
+- **Linguagens:** TypeScript, Java, Python, Clojure, Ruby, SQL
+- **Frontend:** React, Next.js, JavaScript (ES6+), HTML5, CSS3
+- **Backend:** Node.js, NestJS, Spring Boot, Django, Ruby on Rails
+- **Cloud & DevOps:** AWS (EKS, Lambda, CDK, SQS, SNS, EventBridge), Docker, Kubernetes, ArgoCD, CI/CD
+- **Arquitetura:** Microsserviços, Sistemas Orientados a Eventos, Sistemas Distribuídos, Design de API (REST, gRPC)
+- **Dados:** PostgreSQL, DynamoDB, MongoDB, Redis, Redshift, OpenSearch, SAP HANA
+- **Testes:** Jest, Vitest, Testcontainers
+- **Outros:** Design de Sistemas, Otimização de Desempenho, Escalabilidade, Agile/Scrum
 
 ---
 
@@ -29,53 +33,86 @@ Engenheiro de Software Sênior e Arquiteto com mais de 20 anos de experiência n
 
 **Engine** | **Engenheiro de Software Sênior** | _Out 2025 – Presente_
 
-- **Engenharia de Software Aumentada por Agentes:** Implementação de fluxos de trabalho baseados em **Spec-Driven Development (SDD)**, utilizando IA para o planejamento de tarefas complexas e execução autônoma via subagentes.
-- **Orquestração de LLMs:** Desenvolvimento e manutenção de **Skills e Rules** personalizadas para agentes de IA, delegando tarefas granulares a subagentes e integrando-os via **MCPs (Model Context Protocol)** para acesso a ferramentas e contextos externos.
-- **Otimização do Ciclo de Vida (SDLC):** Redução drástica no tempo de ciclo de desenvolvimento e aumento da fidelidade do código através da automação de processos de design técnico e revisões de arquitetura mediadas por IA.
-- **Arquitetura de Busca & gRPC:** Design de integrações de alta performance utilizando **gRPC** para módulos globais de busca, garantindo contratos de dados rigorosos entre microsserviços e agentes de IA.
-- **Otimização de APIs de Busca:** Responsável por integrações de backend via **gRPC** para um motor de busca de viagens de alto tráfego, garantindo conformidade rigorosa dos contratos de dados entre microsserviços.
+- Desenho e implementação de serviços backend de alto desempenho usando gRPC dentro de uma arquitetura de microsserviços para uma plataforma global de viagens
+- Contribuição para a vertical de Voos, trabalhando em busca, reserva e integrações de terceiros para entregar experiências de reserva de voos de ponta a ponta
+- Construção de integrações escaláveis com provedores externos como Duffel e Amadeus, permitindo acesso a múltiplas fontes de inventário e opções de preços competitivos
+- Melhoria da experiência do cliente ao apoiar sistemas que agregam e apresentam tarifas de voos otimizadas entre provedores
+- Garantia de aplicação rigorosa de contratos de dados entre serviços, melhorando a confiabilidade e interoperabilidade entre sistemas distribuídos
+- Introdução de fluxos de trabalho de desenvolvimento aumentados por IA usando ferramentas baseadas em LLM e execução de tarefas orientada por agentes para melhorar a velocidade de desenvolvimento e a qualidade do código
+- Colaboração estreita com equipes de produto, frontend e parceiros para entregar recursos consistentes, confiáveis e focados no usuário
+- Contribuição para integrações futuras com parceiros de companhias aéreas para expandir fontes de inventário e suportar futuras capacidades da plataforma
 
 **Akido Labs** | **Engenheiro de Software Sênior** | _Jul 2024 – Out 2025_
 
-- **Sistemas de Saúde:** Arquitetura de sistema de prontuário eletrônico (EHR) em conformidade com o padrão **HL7**, decompondo fluxos complexos em microsserviços para isolamento de falhas e escalabilidade.
-- **Propriedade de Serviços:** Engenharia do ciclo de vida de "Pedidos e Resultados" (Orders/Results) usando **NestJS, Kafka e PostgreSQL**, automatizando a integração entre médicos e laboratórios.
-- **Engenharia de Performance:** Utilização de **Datadog e LogRocket** para identificar gargalos, implementando camadas de cache com **Redis** para melhorar drasticamente o tempo de resposta percebido pelo usuário.
-- **DevOps Moderno:** Gerenciamento de deploys conteinerizados em **AWS EKS (Kubernetes)** via **ArgoCD**; garantia de qualidade através de **Vitest, Jest e Testcontainers**.
+- Arquitetura e desenvolvimento de microsserviços para um sistema de Registro Eletrônico de Saúde (EHR) em larga escala, compatível com os padrões HL7
+- Construção de serviços backend usando Node.js (NestJS), Kafka e PostgreSQL para suportar fluxos de trabalho e integrações complexas de saúde
+- Design e implementação do ciclo de vida de “Pedidos e Resultados”, permitindo comunicação perfeita entre médicos e laboratórios
+- Melhoria do desempenho e da capacidade de resposta do sistema por meio de estratégias de cache baseadas em Redis e monitoramento de desempenho
+- Desenvolvimento de recursos frontend usando React e Next.js para melhorar a usabilidade para profissionais de saúde
+- Implantação e gerenciamento de aplicativos conteinerizados na AWS EKS usando Docker, Kubernetes e pipelines ArgoCD
+- Monitoramento e otimização de sistemas de produção usando Datadog, identificando e resolvendo gargalos de desempenho
 
 **Jungle Scout** | **Engenheiro de Software Sênior** | _Out 2021 – Jul 2024_
 
-- **Pipelines de Dados em Larga Escala:** Design e manutenção de pipeline robusto de scraping e refinamento de dados para um catálogo de produtos da Amazon com mais de **500M de registros** usando **AWS Redshift**.
-- **Otimização de Latência:** Reengenharia das camadas de UI e API para atingir **latência P99 em milissegundos**, melhorando significativamente a responsividade dos dashboards para vendedores da Amazon.
-- **Arquitetura de Billing Cloud-Native:** Desenvolvimento de motor de faturamento orientado a eventos usando **AWS CDK, EventBridge e DynamoDB** para rastrear o uso de APIs em tempo real e evitar abuso de recursos.
-- **Integração de IA:** Adoção precoce do **GitHub Copilot** para acelerar ciclos de desenvolvimento e automatizar geração de código boilerplate em stack poliglota (Node.js, Ruby, Python).
+- Projeto e manutenção de pipelines de dados distribuídos processando mais de 500 milhões de registros de produtos usando AWS Redshift
+- Redução da latência de API e UI para sub-segundos P99, melhorando significativamente o desempenho para dashboards de alto tráfego
+- Arquitetura e construção de um sistema de faturamento orientado a eventos usando AWS CDK, EventBridge e DynamoDB para rastreamento de uso em tempo real
+- Desenvolvimento de funcionalidades fullstack usando React (TypeScript), Node.js, Ruby e Python dentro de uma arquitetura de microsserviços
+- Implementação de funcionalidade de busca escalável usando OpenSearch, permitindo a descoberta de produtos quase em tempo real em grandes conjuntos de dados
+- Colaboração com gerentes de produto e equipes de engenharia no design do sistema, decisões de arquitetura e priorização de funcionalidades
+- Contribuição para entrevistas técnicas e ajuda na expansão das capacidades da equipe de engenharia
 
 **Synchro Solução Fiscal** | **Arquiteto de Software** | _Fev 2021 – Out 2021_
 
-- **Liderança Arquitetural:** Direção do SDLC completo para sistemas fiscais de alta disponibilidade, alinhando viabilidade técnica com prazos de negócio.
-- **Migração de Grande Escala:** Liderança da migração de um ecossistema frontend massivo (**2.500+ componentes**) de JavaScript para **TypeScript**, aumentando a segurança de tipos e a velocidade de desenvolvimento.
-- **Qualidade de Engenharia:** Configuração de pipelines de **GitLab CI** para automação de testes e qualidade; realização de code reviews rigorosos focados em **SOLID** e **Clean Code**.
+- Liderança na arquitetura e direção técnica de sistemas fiscais de alta disponibilidade, suportando requisitos regulatórios complexos
+- Liderança na migração de mais de 2.500 componentes frontend de JavaScript para TypeScript, melhorando a manutenibilidade e a produtividade dos desenvolvedores
+- Design e implementação de pipelines CI/CD usando GitLab CI, melhorando a confiabilidade das implantações e a qualidade do código
+- Condução de revisões de código e mentoria de engenheiros, promovendo melhores práticas em arquitetura limpa e design de sistemas
+- Colaboração com stakeholders de produto e negócios para alinhar soluções técnicas com os prazos de entrega e os objetivos estratégicos
 
 **Synchro Solução Fiscal** | **Engenheiro de Software Full Stack Sênior** | _Fev 2018 – Fev 2021_
 
-- **Pivot para Programação Funcional:** Extração de lógica core de um monólito Spring Boot para um microsserviço em **Clojure**, visando melhor escalabilidade e manutenibilidade.
-- **Engenharia de Performance:** Alcance de **40% de redução no consumo de memória das VMs** através da gestão eficiente de recursos do Clojure e tunagem de JVM.
-- **Estratégia de Dados:** Integração com **SAP HANA (v1/v2)** utilizando JDBC e Calculation Views para processar lógicas fiscais complexas de alto volume.
-- **Capacitação de Equipe:** Treinamento do time em **React.js, MobX e ES6+**, estabelecendo padrões de UI modernos e componentes reutilizáveis.
+- Refatorei a lógica central de negócios de um sistema monolítico para microsserviços escaláveis usando Clojure e Spring Boot
+- Reduzi o uso de recursos de infraestrutura em aproximadamente 40% por meio de otimização de desempenho e design eficiente do sistema
+- Integrei o SAP HANA com serviços backend para suportar sistemas de cálculo e relatórios fiscais de alto volume
+- Desenvolvi funcionalidades fullstack usando Java, JavaScript e React em um ambiente de sistema distribuído
+- Conduzi sessões de treinamento interno sobre React, JavaScript moderno (ES6+) e melhores práticas de arquitetura frontend
 
-**Synchro Solução Fiscal** | **Desenvolvedor Full Stack / Analista JEE** | _Mai 2009 – Fev 2018_
+**Synchro Solução Fiscal** | **Desenvolvedor Full Stack** | _Jan 2015 – Fev 2018_
 
-- **Cloud & Mensageria:** Desenvolvimento de serviços escaláveis com **Spring Boot, Groovy e AWS**; implementação de mensageria assíncrona via **RabbitMQ e ActiveMQ**.
-- **Automação e Ferramentas:** Criação de ferramentas de automação desktop em **Python (Sikuli/OpenCV)** para otimizar fluxos manuais internos.
-- **Sistemas de Conformidade:** Construção de motores de atualização legal tributária usando **Grails e Groovy** que permanecem em produção contínua até hoje.
+- Desenvolvi serviços backend usando Java, Groovy e Spring Boot com PostgreSQL, Oracle e MongoDB para uma plataforma de conformidade fiscal em nuvem
+- Construí aplicações frontend responsivas usando React, melhorando a usabilidade e o desempenho para profissionais de contabilidade
+- Implementei sistemas de mensagens assíncronas usando RabbitMQ e ActiveMQ para comunicação escalável entre serviços
+- Automatizei fluxos de trabalho internos usando ferramentas baseadas em Python, reduzindo o esforço operacional manual
+- Gerenciei a evolução do esquema do banco de dados usando Liquibase para implantações controladas e versionadas, garantindo a integridade dos dados e a continuidade do serviço durante as atualizações
+
+**Synchro** | **Analista Desenvolvedor JEE** | _Mai 2011 – Jan 2015_
+
+- Desenvolvi sistemas de conformidade fiscal de alta disponibilidade usando Java, Groovy e Grails, suportando requisitos regulatórios em constante evolução
+- Construí e mantive serviços backend usando Hibernate, Oracle e MongoDB para aplicações empresariais de grande escala
+- Implementei estratégias de testes automatizados usando JUnit, Spock e Selenium, melhorando a confiabilidade do sistema e reduzindo defeitos
+- Desenvolvi funcionalidades de frontend usando JavaScript, HTML, CSS e AngularJS em ambientes corporativos
+- Contribuí para processos de desenvolvimento ágil, colaborando com equipes multifuncionais para entregar sistemas prontos para produção
+
+**Synchro** | **Desenvolvedor Java** | _Mai 2009 – Mai 2011_
+
+- Desenvolvi e mantive sistemas internos de gestão de tickets e folhas de ponto usados em toda a organização
+- Construí componentes backend usando Java, Hibernate e bancos de dados relacionais, garantindo a estabilidade e a manutenção do sistema
+- Implementei novas funcionalidades e resolvi problemas de produção, melhorando a usabilidade do sistema e a eficiência operacional
+- Colaborei com membros da equipe para entregar software confiável alinhado às necessidades do negócio
 
 **IBM** | **Desenvolvedor de Software** | _Mar 2007 – Mai 2009_
 
-- **Suporte Global:** Manutenção de sistemas de billing da Sprint/Nextel (milhões de registros) utilizando **VB.NET, Java e PL/SQL** em ambiente Unix AIX.
-- **Eficiência de Processos:** Automação de relatórios financeiros via **Crystal Reports**, economizando **20 horas semanais** de esforço manual da equipe.
+- Mantive e melhorei sistemas de faturamento em larga escala que lidavam com milhões de registros para clientes de telecomunicações
+- Desenvolvi componentes backend usando Java, VB.NET e PL/SQL em um ambiente Unix AIX, garantindo a estabilidade e a escalabilidade do sistema
+- Automatizei processos de relatórios financeiros usando Crystal Reports, reduzindo o trabalho manual em aproximadamente 20 horas por semana
+- Colaborei com equipes distribuídas nos EUA e na Índia para suportar sistemas de produção, garantindo a resolução rápida de problemas e a continuidade do serviço
 
 **AKB IT Solutions** | **Estagiário de Desenvolvimento Backend** | _Jan 2006 – Fev 2007_
 
-- **Otimização de Banco de Dados:** Desenvolvimento e tunagem de queries complexas e lógica de banco de dados usando **PL/SQL** e **Oracle**.
+- Desenvolvi e otimizei consultas de banco de dados usando PL/SQL e Oracle
+- Melhorei o desempenho do banco de dados por meio de tunagem de consultas e estratégias de indexação
+- Auxiliei na manutenção da integridade dos dados e no suporte às operações do sistema backend
 
 ---
 

@@ -6,146 +6,158 @@ contact:
   email: jefferson.msouza86@gmail.com
   linkedin: https://www.linkedin.com/in/jefferson-mariano-de-souza/
   github: https://github.com/studiojms
-summary: Senior Software Engineer and Architect with 20+ years of experience building scalable, high-availability distributed systems. Expert in <strong>TypeScript (Node.js/React)</strong>, <strong>Java</strong>, and <strong>Python</strong> within <strong>AWS Cloud-native</strong> environments (EKS, CDK, Lambda). Proven track record of leading massive migrations (2,500+ components), designing event-driven microservices, and optimizing data architectures for catalogs exceeding <strong>500M records</strong> with <strong>sub-second P99 latency</strong>. MBA-educated in Software Architecture with a focus on <strong>Spec-Driven Development</strong> and AI-augmented engineering.
+summary: |-
+  <p>Senior Software Engineer with 20+ years of experience building scalable, high-performance systems across backend and fullstack environments. Strong expertise in cloud-native architecture (AWS, Kubernetes), microservices, and event-driven systems.</p>
+  <p>Proven track record delivering large-scale systems, including data platforms supporting 500M+ records and frontend migrations exceeding 2,500 components. Experienced in optimizing performance, reducing latency, and designing resilient distributed systems.</p>
+  <p>Advanced proficiency in TypeScript (Node.js), Java, and Python, with hands-on experience across modern frontend frameworks (React, Next.js). Recently focused on AI-augmented development workflows and developer productivity improvements.</p>
 skills:
-  AI & Productivity:
-    - GitHub Copilot
-    - Cursor
-    - Claude
-    - Spec-Driven Development
   Languages:
     - TypeScript
     - Java
-    - Clojure
     - Python
-    - Groovy
+    - Clojure
     - Ruby
     - SQL
-    - PL/SQL
-  Frameworks:
-    - Node.js (NestJS)
+  Frontend:
     - React
     - Next.js
+    - JavaScript (ES6+)
+    - HTML5
+    - CSS3
+  Backend:
+    - Node.js
+    - NestJS
     - Spring Boot
-    - Grails
     - Django
-    - RoR
+    - Ruby on Rails
   Cloud & DevOps:
-    - AWS (CDK
-    - EKS
+    - AWS (EKS
     - Lambda
+    - CDK
     - SQS
     - SNS
     - EventBridge)
     - Docker
     - Kubernetes
     - ArgoCD
-    - GitLab CI
-  Data & Storage:
+    - CI/CD
+  Architecture:
+    - Microservices
+    - Event-Driven Systems
+    - Distributed Systems
+    - API Design (REST
+    - gRPC)
+  Data:
     - PostgreSQL
-    - Oracle
-    - MongoDB
     - DynamoDB
+    - MongoDB
     - Redis
     - Redshift
     - OpenSearch
     - SAP HANA
-  Architecture:
-    - Microservices
-    - Event-Driven Design
-    - Functional Programming
-    - gRPC
-    - HL7
-    - Kafka
+  Testing:
+    - Jest
+    - Vitest
+    - Testcontainers
+  Other:
+    - System Design
+    - Performance Optimization
+    - Scalability
+    - Agile/Scrum
 experience:
   - company: Engine
     role: Senior Software Engineer
-    dates: ''
+    dates: Oct 2025 – Present
     achievements:
-      - title: AI-Augmented Engineering
-        description: Spearheaded <strong>Spec-Driven Development</strong> using <strong>GitHub Copilot, Cursor, and Claude</strong> to increase output fidelity, resulting in faster feature delivery and a significant reduction in logic failures.
-      - title: Search API Optimization
-        description: Lead backend integrations via <strong>gRPC</strong> for a high-traffic travel search engine (flights, lodging, cars), ensuring strict data contract compliance across distributed microservices.
-      - title: Technical Leadership
-        description: Collaborating with Product Managers to translate complex business requirements into high-performance <strong>Node.js/TypeScript</strong> services on <strong>AWS</strong>.
+      - Designed and implemented high-performance backend services using gRPC within a microservices architecture for a global travel platform
+      - Contributed to the Flights vertical, working across search, booking, and third-party integrations to deliver end-to-end flight booking experiences
+      - Built scalable integrations with external providers such as Duffel and Amadeus, enabling access to multiple inventory sources and competitive pricing options
+      - Improved customer experience by supporting systems that aggregate and present optimal flight fares across providers
+      - Ensured strict data contract enforcement across services, improving reliability and interoperability between distributed systems
+      - Introduced AI-augmented development workflows using LLM-based tools and agent-driven task execution to improve development speed and code quality
+      - Collaborated closely with product, frontend, and partner teams to deliver consistent, reliable, and user-focused features
+      - Contributing to upcoming integrations with airline partners to expand inventory sources and support future platform capabilities
   - company: Akido Labs
     role: Senior Software Engineer
-    dates: ''
+    dates: Jul 2024 – Oct 2025
     achievements:
-      - title: Healthcare Systems
-        description: Architected an <strong>HL7-compliant EHR system</strong>, decomposing large-scale medical workflows into domain-driven microservices for maximum fault isolation and scalability.
-      - title: Service Ownership
-        description: Engineered the &quot;Orders and Results&quot; lifecycle using <strong>NestJS, Kafka, and PostgreSQL</strong>, automating the end-to-end integration between physicians and laboratories.
-      - title: Performance Engineering
-        description: Utilized <strong>Datadog and LogRocket</strong> to identify bottlenecks, implementing <strong>Redis caching</strong> to drastically improve user-perceived speed and query responsiveness.
-      - title: Modern CI/CD
-        description: Orchestrated containerized deployments on <strong>AWS EKS (Kubernetes)</strong> via <strong>ArgoCD</strong> pipelines; enforced quality through <strong>Vitest, Jest, and Testcontainers</strong>.
+      - Architected and developed microservices for a large-scale Electronic Health Record (EHR) system compliant with HL7 standards
+      - Built backend services using Node.js (NestJS), Kafka, and PostgreSQL to support complex healthcare workflows and integrations
+      - Designed and implemented the “Orders and Results” lifecycle, enabling seamless communication between physicians and laboratories
+      - Improved system performance and responsiveness through Redis-based caching strategies and performance monitoring
+      - Developed frontend features using React and Next.js to enhance usability for healthcare professionals
+      - Deployed and managed containerized applications on AWS EKS using Docker, Kubernetes, and ArgoCD pipelines
+      - Monitored and optimized production systems using Datadog, identifying and resolving performance bottlenecks
   - company: Jungle Scout
     role: Senior Software Engineer
-    dates: ''
+    dates: Oct 2021 – Jul 2024
     achievements:
-      - title: High-Scale Data Pipelines
-        description: Designed and maintained a robust scraping and data-polishing pipeline supporting a catalog of <strong>500M+ products</strong> using <strong>AWS Redshift</strong>.
-      - title: Latency Optimization
-        description: Re-engineered UI and API layers to achieve <strong>P99 latency within milliseconds</strong>, significantly improving dashboard responsiveness for Amazon sellers.
-      - title: FinOps &amp; Billing Architecture
-        description: Designed a cloud-native, event-driven billing engine using <strong>AWS CDK, EventBridge, and DynamoDB</strong> to track real-time API usage and prevent resource abuse.
-      - title: AI Integration
-        description: Leveraged <strong>GitHub Copilot</strong> to accelerate development cycles and automate boilerplate code generation across a polyglot stack (Node.js, Ruby, Python).
+      - Designed and maintained distributed data pipelines processing over 500M product records using AWS Redshift
+      - Reduced API and UI latency to sub-second P99, significantly improving performance for high-traffic dashboards
+      - Architected and built an event-driven billing system using AWS CDK, EventBridge, and DynamoDB for real-time usage tracking
+      - Developed fullstack features using React (TypeScript), Node.js, Ruby, and Python within a microservices architecture
+      - Implemented scalable search functionality using OpenSearch, enabling near real-time product discovery across large datasets
+      - Collaborated with product managers and engineering teams on system design, architecture decisions, and feature prioritization
+      - Contributed to technical interviews and helped scale engineering team capabilities
   - company: Synchro
     role: Software Architect
-    dates: ''
+    dates: Feb 2021 – Oct 2021
     achievements:
-      - title: Architectural Leadership
-        description: Directed the full SDLC for high-availability tax systems, aligning technical feasibility with business deadlines in collaboration with Product Owners.
-      - title: Large-Scale Migration
-        description: Spearheaded the transition of a massive frontend ecosystem (<strong>2,500+ components</strong>) from JavaScript to <strong>TypeScript</strong>, significantly increasing type safety and developer velocity.
-      - title: Engineering Quality
-        description: Engineered <strong>GitLab CI pipelines</strong> to automate testing/quality gates and conducted rigorous code reviews to enforce <strong>SOLID</strong> and <strong>Clean Code</strong> principles.
+      - Led architecture and technical direction for high-availability tax systems supporting complex regulatory requirements
+      - Spearheaded migration of 2,500+ frontend components from JavaScript to TypeScript, improving maintainability and developer productivity
+      - Designed and implemented CI/CD pipelines using GitLab CI, improving deployment reliability and code quality
+      - Conducted code reviews and mentored engineers, promoting best practices in clean architecture and system design
+      - Collaborated with product and business stakeholders to align technical solutions with delivery timelines
   - company: Synchro
     role: Senior Full Stack Developer
-    dates: ''
+    dates: Feb 2018 – Feb 2021
     achievements:
-      - title: Functional Programming Pivot
-        description: Extracted core business logic from a Spring Boot monolith into a <strong>Clojure-based</strong> microservice to leverage functional paradigms for better scalability.
-      - title: Performance Engineering
-        description: Achieved a <strong>40% reduction in VM memory consumption</strong> through Clojure&#39;s efficient resource management and optimized JVM tuning.
-      - title: Data Strategy
-        description: Integrated <strong>SAP HANA (v1/v2)</strong> using JDBC and calculation views to handle complex, high-volume tax calculation logic.
-      - title: Team Upskilling
-        description: Led staff training on <strong>React.js, MobX, and ES6+</strong>, establishing modern UI benchmarks and component-based design patterns across the organization.
+      - Refactored core business logic from a monolithic system into scalable microservices using Clojure and Spring Boot
+      - Reduced infrastructure resource usage by approximately 40% through performance optimization and efficient system design
+      - Integrated SAP HANA with backend services to support high-volume tax calculation and reporting systems
+      - Developed fullstack features using Java, JavaScript, and React in a distributed system environment
+      - Led internal training sessions on React, modern JavaScript (ES6+), and frontend architecture best practices
   - company: Synchro
     role: Full Stack Developer
-    dates: ''
+    dates: Jan 2015 – Feb 2018
     achievements:
-      - title: Cloud &amp; Messaging
-        description: Developed scalable services using <strong>Spring Boot, Groovy, and AWS (EC2, SQS, S3)</strong>; implemented asynchronous messaging via <strong>RabbitMQ and ActiveMQ</strong>.
-      - title: Automation Tooling
-        description: Built custom desktop automation tools using <strong>Python (Sikuli/OpenCV)</strong> to streamline internal manual workflows.
-      - title: Database Management
-        description: Managed schema evolution across <strong>PostgreSQL, Oracle, and MongoDB</strong> using <strong>Liquibase</strong> for version-controlled deployments.
+      - Developed backend services using Java, Groovy, and Spring Boot with PostgreSQL, Oracle, and MongoDB
+      - Built responsive frontend applications using React, improving usability and performance
+      - Implemented asynchronous messaging systems using RabbitMQ and ActiveMQ for scalable communication between services
+      - Automated internal workflows using Python-based tools, reducing manual operational effort
+      - Managed database schema evolution using Liquibase for controlled and versioned deployments
   - company: Synchro
-    role: JEE Developer Analyst / Java Developer
-    dates: ''
+    role: JEE Developer Analyst
+    dates: May 2011 – Jan 2015
     achievements:
-      - title: High-Availability Compliance
-        description: Built mission-critical tax legal update engines using <strong>Grails and Groovy</strong> that remain in continuous production today.
-      - title: Operational Systems
-        description: Developed a company-wide ticket and timesheet management system using <strong>Hibernate and ICEfaces</strong>, supporting 100% of internal employees and customers.
+      - Developed high-availability tax compliance systems using Java, Groovy, and Grails, supporting continuously evolving regulatory requirements
+      - Built and maintained backend services using Hibernate, Oracle, and MongoDB for large-scale enterprise applications
+      - Implemented automated testing strategies using JUnit, Spock, and Selenium, improving system reliability and reducing defects
+      - Developed frontend features using JavaScript, HTML, CSS, and AngularJS in enterprise environments
+      - Contributed to Agile development processes, collaborating with cross-functional teams to deliver production-ready systems
+  - company: Synchro
+    role: Java Developer
+    dates: May 2009 – May 2011
+    achievements:
+      - Developed and maintained internal enterprise systems for ticketing and timesheet management used across the organization
+      - Built backend components using Java, Hibernate, and relational databases, ensuring system stability and maintainability
+      - Implemented new features and resolved production issues, improving system usability and operational efficiency
+      - Collaborated with team members to deliver reliable software aligned with business needs
   - company: IBM
     role: Software Developer
-    dates: ''
+    dates: Mar 2007 – May 2009
     achievements:
-      - title: Global Support
-        description: Maintained Sprint/Nextel billing systems (millions of records) using <strong>VB.NET, Java, and PL/SQL</strong> in a Unix AIX environment.
-      - title: Process Efficiency
-        description: Automated financial reporting via <strong>Crystal Reports</strong>, reducing manual effort by <strong>20 hours per week</strong>.
+      - Maintained and enhanced large-scale billing systems handling millions of records for telecom clients
+      - Developed backend components using Java, VB.NET, and PL/SQL in a Unix AIX environment
+      - Automated financial reporting processes using Crystal Reports, reducing manual work by approximately 20 hours per week
+      - Collaborated with distributed teams across the US and India to support production systems
   - company: AKB IT Solutions
     role: Backend Developer Intern
-    dates: ''
+    dates: Jan 2006 – Feb 2007
     achievements:
-      - title: Database Optimization
-        description: Developed and tuned complex queries and database logic using <strong>PL/SQL</strong> and <strong>Oracle</strong>, focusing on performance tuning and data integrity.
+      - Developed and optimized database queries using PL/SQL and Oracle
+      - Improved database performance through query tuning and indexing strategies
+      - Assisted in maintaining data integrity and supporting backend system operations
 education:
   - degree: MBA in Software Architecture
     institution: Full Cycle
